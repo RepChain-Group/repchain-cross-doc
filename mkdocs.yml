@@ -1,0 +1,55 @@
+site_name: RepChain Cross
+extra_css: [extra.css]
+nav:
+  - 首页: index.md
+  - 开始:
+    - 引言: 01.开始/01.引言.md
+    - 准备工作: 01.开始/02.准备工作.md
+
+theme:
+  name: material
+  palette:
+      - scheme: default
+        primary: green
+        toggle:
+            icon: material/weather-night
+            name: Switch to dark mode
+      - scheme: slate
+        primary: red
+        toggle:
+            icon: material/weather-sunny
+            name: Switch to light mode
+  favicon: img/favicon.ico
+  logo: img/favicon.ico
+  language: zh
+  features:
+    - content.code.annotate
+    - search.highlight
+    - navigation.top
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - attr_list
+  - tables
+
+plugins:
+    - search:
+    - with-pdf:
+        author: RepChain DEV Team
+        toc_title: 目录
+        toc_level: 3
+        cover_subtitle: 基于RepChain 2.0 的链外接口协同组件
+
+
+
+extra:
+  version:
+    provider: mike
+
+copyright: Copyright &copy; 2021-2023 RepChain Interface Cooperation
