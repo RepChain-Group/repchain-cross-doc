@@ -5,6 +5,12 @@ nav:
   - 开始:
     - 引言: 01.开始/01.引言.md
     - 准备工作: 01.开始/02.准备工作.md
+    - 数据结构DataType: 01.开始/03.DataType.md
+    - 同步模块SyncInfo: 01.开始/04.SyncInfo.md
+    - 存储模块Storage: 01.开始/05.Storage.md
+    - 跨链网关GateWay: 01.开始/06.GateWay.md
+    - 跨链管理合约: 01.开始/07.CrossChainManage.md
+
 
 theme:
   name: material
