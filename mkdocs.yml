@@ -10,7 +10,11 @@ nav:
     - 存储模块Storage: 01.开始/05.Storage.md
     - 跨链网关GateWay: 01.开始/06.GateWay.md
     - 跨链管理合约: 01.开始/07.CrossChainManage.md
-
+  - 跨链组件管理平台:
+    - 准备工作: 02.跨链组件管理平台/01.准备工作.md
+    - 平台配置: 02.跨链组件管理平台/02.平台配置.md
+    - 使用说明: 02.跨链组件管理平台/03.使用说明.md
+    - 使用说明: 02.跨链组件管理平台/04.跨链交易提交.md
 
 theme:
   name: material
@@ -46,11 +50,11 @@ markdown_extensions:
 
 plugins:
     - search:
-    - with-pdf:
-        author: RepChain DEV Team
-        toc_title: 目录
-        toc_level: 3
-        cover_subtitle: 基于RepChain 2.0 的链外接口协同组件
+#    - with-pdf:
+#        author: RepChain DEV Team
+#        toc_title: 目录
+#        toc_level: 3
+#        cover_subtitle: 基于RepChain 2.0 的链外接口协同组件
 
 
 
