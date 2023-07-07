@@ -2,14 +2,14 @@ site_name: RepChain Cross
 extra_css: [extra.css]
 nav:
   - 首页: index.md
-  - 开始:
-    - 引言: 01.开始/01.引言.md
-    - 准备工作: 01.开始/02.准备工作.md
-    - 数据结构DataType: 01.开始/03.DataType.md
-    - 同步模块SyncInfo: 01.开始/04.SyncInfo.md
-    - 存储模块Storage: 01.开始/05.Storage.md
-    - 跨链网关GateWay: 01.开始/06.GateWay.md
-    - 跨链管理合约: 01.开始/07.CrossChainManage.md
+  - 跨链组件:
+    - 引言: 01.跨链组件/01.引言.md
+    - 准备工作: 01.跨链组件/02.准备工作.md
+    - 数据结构DataType: 01.跨链组件/03.DataType.md
+    - 同步模块SyncInfo: 01.跨链组件/04.SyncInfo.md
+    - 存储模块Storage: 01.跨链组件/05.Storage.md
+    - 跨链网关GateWay: 01.跨链组件/06.GateWay.md
+    - 跨链管理合约: 01.跨链组件/07.CrossChainManage.md
   - 跨链组件管理平台:
     - 准备工作: 02.跨链组件管理平台/01.准备工作.md
     - 平台配置: 02.跨链组件管理平台/02.平台配置.md
